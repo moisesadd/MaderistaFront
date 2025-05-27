@@ -1,0 +1,27 @@
+.input-control {
+  margin-bottom: 15px; /* Espacio entre los campos del formulario */
+}
+
+.input-control label {
+  display: block; /* La etiqueta ocupa su propia línea */
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.input-control input,
+.input-control textarea {
+  width: 100%; /* Ocupa el ancho completo de su contenedor */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Asegura que padding y borde no aumenten el ancho total */
+  font-size: 1rem;
+}
+
+.input-control input:focus,
+.input-control textarea:focus {
+  outline: none; /* Elimina el contorno azul por defecto del navegador */
+  border-color: #007bff; /* Borde azul al enfocar */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Sombra suave al enfocar */
+}

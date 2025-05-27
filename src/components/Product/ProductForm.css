@@ -1,0 +1,20 @@
+.product-form {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(192, 20, 20, 0.1);
+  max-width: 600px; 
+  margin: 20px auto; 
+}
+
+.product-form h3 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+}
+
+.product-form .button {
+  width: 100%; 
+  margin-top: 20px;
+}
